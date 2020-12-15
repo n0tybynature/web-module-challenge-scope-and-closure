@@ -155,14 +155,14 @@ Use the scoreboard function below to do the following:
 ]  
   */
 
- function scoreboard(getInningScore,inning,num1) {
-  let current;
-  for (let i = 0; i<=num1;i++){
-
-  }
-
+ function scoreboard(getInningScore,inning,num2) {
   
+  for (let i = 0; i<=num2;i++){
+    return scoreboard();
+  }
 }
+
+console.log(scoreboard(getInningScore,inning,7))
 
 
 
